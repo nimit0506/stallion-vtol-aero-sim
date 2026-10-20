@@ -1,0 +1,66 @@
+{
+  "_comment": "Edit this file to change the case. Lengths in metres unless the key says _mm.",
+  "stl": "aircraft_wrapped.stl",
+  "processors": 4,
+  "flight": {
+    "speed_m_s": 20.0,
+    "aoa_deg": [
+      0,
+      4,
+      8
+    ],
+    "sideslip_deg": 0.0,
+    "density_kg_m3": 1.225,
+    "viscosity_kg_m_s": 1.7894e-05,
+    "turbulence_intensity": 0.01,
+    "turbulent_viscosity_ratio": 2.0
+  },
+  "axes": {
+    "_comment": "Model axes from the STL: nose points +Y, up is +Z, span is X.",
+    "forward": [
+      0,
+      1,
+      0
+    ],
+    "up": [
+      0,
+      0,
+      1
+    ]
+  },
+  "reference": {
+    "_comment": "Fixed values (estimated from the clean geometry) shared with ../cfd_pod so coefficients compare 1:1.",
+    "area_m2": 0.22068,
+    "length_m": 0.16409,
+    "moment_center_m": [
+      0.0,
+      -0.27655,
+      0.07831
+    ]
+  },
+  "domain": {
+    "upstream_m": 4.0,
+    "downstream_m": 8.0,
+    "lateral_m": 4.0,
+    "vertical_m": 4.0
+  },
+  "mesh": {
+    "_comment": "Ansys Student caps Fluent at ~1M cells/nodes; these settings aim for ~0.6-0.9M.",
+    "min_size_mm": 5.5,
+    "aircraft_max_size_mm": 26.0,
+    "curvature_angle_deg": 28,
+    "max_size_mm": 500.0,
+    "growth_rate": 1.2,
+    "boundary_layers": 3,
+    "bl_first_height_mm": 0.5,
+    "bl_growth": 1.2,
+    "volume_fill": "poly-hexcore"
+  },
+  "solver": {
+    "_comment": "iterations = max per angle; stops early once CL and CD change < force_tolerance over check_every iterations. ~5 s/iteration on 4 cores.",
+    "iterations": 600,
+    "min_iterations": 150,
+    "check_every": 50,
+    "force_tolerance": 0.002
+  }
+}

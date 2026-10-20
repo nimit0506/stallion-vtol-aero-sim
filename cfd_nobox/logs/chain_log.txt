@@ -1,0 +1,50 @@
+﻿===== 1/6  GLB -> raw STL =====
+pip_system_certs: ERROR: truststore not available
+{
+  "input": "..\\geometry\\stallion_v2_pod_nobox.glb",
+  "parts": 94,
+  "facets": 689914,
+  "bounds_m": [
+    [
+      -0.6725,
+      0.6724
+    ],
+    [
+      -0.9315,
+      0.0599
+    ],
+    [
+      -0.0088,
+      0.2202
+    ]
+  ]
+}
+Wrote input\stallion_nobox_raw.stl (mm)
+===== 2/6  repair + shrink-wrap =====
+pip_system_certs: ERROR: truststore not available
+Reading input\stallion_nobox_raw.stl
+  689914 facets, raw size [1344.884  991.39   229.024] -> assuming mm
+  raw: {'open_edges': 0, 'non_manifold_edges': 2397}
+  after facet repair: {'open_edges': 0, 'non_manifold_edges': 2017}, bodies: 248
+  wrap: voxel 1.50 mm, grid [922, 686, 178] = 113M voxels
+  wrap: sealing openings up to ~24 mm (8 voxels)
+  wrap: iso-surface 1089282 facets {'open_edges': 0, 'non_manifold_edges': 0}
+  wrap: decimated to 299230 facets
+  wrapped skin: {'open_edges': 0, 'non_manifold_edges': 0, 'facets': 299230, 'bodies': 1, 'voxel_mm': 1.5, 'max_bbox_change_mm': 2.3620054125785828}
+  size (m): [1.3449 0.9914 0.229 ]  center: [-0.     -0.4358  0.1057]
+  reference estimates: wing area 0.2207 m2, mean chord 0.1641 m, span 1.3449 m, quarter-chord [ 0.     -0.2766  0.0785]
+Wrote C:\Users\nimit\Desktop\VTOL_proj1\aero_sim\cfd_nobox\aircraft_wrapped.stl and geometry_report.json
+===== 3/6  check the wrap is solid =====
+pip_system_certs: ERROR: truststore not available
+rays: 80, enclosed air gaps >3 mm: 0, >15 mm: 0
+SOLID
+===== 4/6  mesh  (logs\mesh_log.txt) =====
+cmd : ERROR: Input redirection is not supported, exiting the process immediately.
+At line:1 char:302
++ ... tch {} } }; cmd /c "C:\Users\nimit\Desktop\VTOL_proj1\aero_sim\cfd_no ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: Input re...ss immediately.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+===== 5/6  solve  (logs\solve_log.txt) =====
+solve failed - see logs\solve_log.txt 

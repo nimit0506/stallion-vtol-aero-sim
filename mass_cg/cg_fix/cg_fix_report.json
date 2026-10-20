@@ -1,0 +1,428 @@
+{
+  "0.8 mm walls": {
+    "box_move_mm": [
+      0,
+      120.0,
+      1.4
+    ],
+    "battery_move_mm": [
+      0,
+      10,
+      0
+    ],
+    "original": {
+      "settings": {
+        "wall_mm": 0.8,
+        "infill": 0.2,
+        "rho": 0.54,
+        "payload_g": 0.0
+      },
+      "mass_g": {
+        "component": 1032,
+        "carbon": 123,
+        "printed": 1114,
+        "total": 2268
+      },
+      "cg_m": [
+        0.0,
+        -0.2894,
+        0.0658
+      ],
+      "aero": {
+        "reference_point_y_m": -0.27655,
+        "mac_m": 0.16409,
+        "dCm_dCL": -0.1487,
+        "neutral_point_y_m": -0.3009,
+        "static_margin_pct_mac": 7.0,
+        "cm_about_cg": {
+          "0deg": 0.0347,
+          "4deg": 0.0074
+        },
+        "trim_CL_as_built": 0.803
+      },
+      "cruise_CL_needed_20ms": 0.412,
+      "hover": {
+        "motor_y_m": {
+          "front pair": -0.1172,
+          "tail": -0.6539
+        },
+        "tail_motor_share_pct": 32.1,
+        "each_front_motor_pct": 34.0,
+        "right_front_vs_left_pct": 50.0
+      }
+    },
+    "box_only": {
+      "settings": {
+        "wall_mm": 0.8,
+        "infill": 0.2,
+        "rho": 0.54,
+        "payload_g": 0.0
+      },
+      "mass_g": {
+        "component": 1032,
+        "carbon": 123,
+        "printed": 1114,
+        "total": 2268
+      },
+      "cg_m": [
+        0.0,
+        -0.2873,
+        0.0658
+      ],
+      "aero": {
+        "reference_point_y_m": -0.27655,
+        "mac_m": 0.16409,
+        "dCm_dCL": -0.1487,
+        "neutral_point_y_m": -0.3009,
+        "static_margin_pct_mac": 8.3,
+        "cm_about_cg": {
+          "0deg": 0.0307,
+          "4deg": -0.0016
+        },
+        "trim_CL_as_built": 0.678
+      },
+      "cruise_CL_needed_20ms": 0.412,
+      "hover": {
+        "motor_y_m": {
+          "front pair": -0.1172,
+          "tail": -0.6539
+        },
+        "tail_motor_share_pct": 31.7,
+        "each_front_motor_pct": 34.2,
+        "right_front_vs_left_pct": 50.0
+      }
+    },
+    "box_and_battery": {
+      "settings": {
+        "wall_mm": 0.8,
+        "infill": 0.2,
+        "rho": 0.54,
+        "payload_g": 0.0
+      },
+      "mass_g": {
+        "component": 1032,
+        "carbon": 123,
+        "printed": 1114,
+        "total": 2268
+      },
+      "cg_m": [
+        0.0,
+        -0.2842,
+        0.0658
+      ],
+      "aero": {
+        "reference_point_y_m": -0.27655,
+        "mac_m": 0.16409,
+        "dCm_dCL": -0.1487,
+        "neutral_point_y_m": -0.3009,
+        "static_margin_pct_mac": 10.2,
+        "cm_about_cg": {
+          "0deg": 0.0248,
+          "4deg": -0.0147
+        },
+        "trim_CL_as_built": 0.553
+      },
+      "cruise_CL_needed_20ms": 0.412,
+      "hover": {
+        "motor_y_m": {
+          "front pair": -0.1172,
+          "tail": -0.6539
+        },
+        "tail_motor_share_pct": 31.1,
+        "each_front_motor_pct": 34.4,
+        "right_front_vs_left_pct": 50.0
+      }
+    },
+    "clearance_after": [
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "BATTERY PAD",
+        "contacts": 1152,
+        "gap_mm": 0.0
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 3R",
+        "contacts": 0,
+        "gap_mm": 1.7
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 3L",
+        "contacts": 0,
+        "gap_mm": 1.7
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 2R",
+        "contacts": 0,
+        "gap_mm": 1.7
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 2L",
+        "contacts": 0,
+        "gap_mm": 1.7
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 1R",
+        "contacts": 0,
+        "gap_mm": 0.4
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 1L",
+        "contacts": 0,
+        "gap_mm": 0.4
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 3R",
+        "contacts": 0,
+        "gap_mm": 22.8
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 3L",
+        "contacts": 0,
+        "gap_mm": 22.8
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 2R",
+        "contacts": 0,
+        "gap_mm": 0.2
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 2L",
+        "contacts": 0,
+        "gap_mm": 0.1
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 1R",
+        "contacts": 0,
+        "gap_mm": 5.5
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 1L",
+        "contacts": 0,
+        "gap_mm": 5.5
+      }
+    ],
+    "files": [
+      "stallion_pod_w08_pod.glb",
+      "stallion_pod_w08_pod_batt.glb"
+    ]
+  },
+  "1.2 mm walls": {
+    "box_move_mm": [
+      0,
+      120.0,
+      1.4
+    ],
+    "battery_move_mm": [
+      0,
+      33,
+      4
+    ],
+    "original": {
+      "settings": {
+        "wall_mm": 1.2,
+        "infill": 0.2,
+        "rho": 0.54,
+        "payload_g": 0.0
+      },
+      "mass_g": {
+        "component": 1032,
+        "carbon": 123,
+        "printed": 1375,
+        "total": 2529
+      },
+      "cg_m": [
+        0.0,
+        -0.2958,
+        0.0669
+      ],
+      "aero": {
+        "reference_point_y_m": -0.27655,
+        "mac_m": 0.16409,
+        "dCm_dCL": -0.1487,
+        "neutral_point_y_m": -0.3009,
+        "static_margin_pct_mac": 3.1,
+        "cm_about_cg": {
+          "0deg": 0.0468,
+          "4deg": 0.0347
+        },
+        "trim_CL_as_built": 1.804
+      },
+      "cruise_CL_needed_20ms": 0.459,
+      "hover": {
+        "motor_y_m": {
+          "front pair": -0.1172,
+          "tail": -0.6539
+        },
+        "tail_motor_share_pct": 33.3,
+        "each_front_motor_pct": 33.4,
+        "right_front_vs_left_pct": 50.0
+      }
+    },
+    "box_only": {
+      "settings": {
+        "wall_mm": 1.2,
+        "infill": 0.2,
+        "rho": 0.54,
+        "payload_g": 0.0
+      },
+      "mass_g": {
+        "component": 1032,
+        "carbon": 123,
+        "printed": 1375,
+        "total": 2529
+      },
+      "cg_m": [
+        0.0,
+        -0.2934,
+        0.0669
+      ],
+      "aero": {
+        "reference_point_y_m": -0.27655,
+        "mac_m": 0.16409,
+        "dCm_dCL": -0.1487,
+        "neutral_point_y_m": -0.3009,
+        "static_margin_pct_mac": 4.6,
+        "cm_about_cg": {
+          "0deg": 0.0421,
+          "4deg": 0.0242
+        },
+        "trim_CL_as_built": 1.22
+      },
+      "cruise_CL_needed_20ms": 0.459,
+      "hover": {
+        "motor_y_m": {
+          "front pair": -0.1172,
+          "tail": -0.6539
+        },
+        "tail_motor_share_pct": 32.8,
+        "each_front_motor_pct": 33.6,
+        "right_front_vs_left_pct": 50.0
+      }
+    },
+    "box_and_battery": {
+      "settings": {
+        "wall_mm": 1.2,
+        "infill": 0.2,
+        "rho": 0.54,
+        "payload_g": 0.0
+      },
+      "mass_g": {
+        "component": 1032,
+        "carbon": 123,
+        "printed": 1375,
+        "total": 2529
+      },
+      "cg_m": [
+        0.0,
+        -0.2842,
+        0.068
+      ],
+      "aero": {
+        "reference_point_y_m": -0.27655,
+        "mac_m": 0.16409,
+        "dCm_dCL": -0.1487,
+        "neutral_point_y_m": -0.3009,
+        "static_margin_pct_mac": 10.2,
+        "cm_about_cg": {
+          "0deg": 0.0249,
+          "4deg": -0.0146
+        },
+        "trim_CL_as_built": 0.554
+      },
+      "cruise_CL_needed_20ms": 0.459,
+      "hover": {
+        "motor_y_m": {
+          "front pair": -0.1172,
+          "tail": -0.6539
+        },
+        "tail_motor_share_pct": 31.1,
+        "each_front_motor_pct": 34.4,
+        "right_front_vs_left_pct": 50.0
+      }
+    },
+    "clearance_after": [
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "BATTERY PAD",
+        "contacts": 0,
+        "gap_mm": 4.0
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 2R",
+        "contacts": 0,
+        "gap_mm": 6.9
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 2L",
+        "contacts": 0,
+        "gap_mm": 6.9
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 1R",
+        "contacts": 0,
+        "gap_mm": 0.2
+      },
+      {
+        "moved": "BATTERY - GenX 4S 8000mAh (provisional)",
+        "other": "FUS 1L",
+        "contacts": 0,
+        "gap_mm": 0.2
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 3R",
+        "contacts": 0,
+        "gap_mm": 22.8
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 3L",
+        "contacts": 0,
+        "gap_mm": 22.8
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 2R",
+        "contacts": 0,
+        "gap_mm": 0.2
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 2L",
+        "contacts": 0,
+        "gap_mm": 0.1
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 1R",
+        "contacts": 0,
+        "gap_mm": 5.5
+      },
+      {
+        "moved": "VIAL POD - direct rail mount",
+        "other": "FUS 1L",
+        "contacts": 0,
+        "gap_mm": 5.5
+      }
+    ],
+    "files": [
+      "stallion_pod_w12_pod.glb",
+      "stallion_pod_w12_pod_batt.glb"
+    ]
+  }
+}

@@ -1,0 +1,373 @@
+pip_system_certs: ERROR: truststore not available
+[mesh 05:24:25] launching Fluent Meshing ...
+    loading solid(s) from binary STL file 'C:\\Users\\nimit\\Desktop\\VTOL_proj1\\cfd_pod\\aircraft_wrapped.stl' ...
+    loaded solid 'aircraft' ...
+    number of facets: 298872
+    298872 facets loaded ...
+[mesh 05:24:50] -> Import CAD and Part Management
+    classifying 0 edge occurrences ...
+    classified 0 feature edge edges by feature angle
+    classified 0 single-connected edges as feature edge(s)
+    classified 0 multi-connected edges as feature edge(s)
+    classified 0 sheet edges as feature edge(s)
+    classified 0 wire edges as feature edge(s)
+    classified 0 feature edges by group criteria
+    processing 4 zones ...
+    post-processing 1 zones for feature edge extraction ...
+"Meshing objects are created"
+[mesh 05:24:55] -> Describe Geometry and Flow
+[mesh 05:24:55] -> Create External Flow Boundaries
+S_CreateBoundingBox:
+ ExternalBoundariesName : tunnel
+ CreationMethod : Create new boundary
+ ExtractionMethod : surface mesh
+ SelectionType : object
+ ObjectSelectionList : (aircraft_wrapped)
+ ZoneSelectionList : ()
+ ZoneLocation:()
+ LabelSelectionList : ()
+ ObjectSelectionSingle : ()
+ ZoneSelectionSingle : ()
+ LabelSelectionSingle : ()
+ OriginalObjectName : 
+ BoundingBoxObject : (__map__ (SizeRelativeLength . Directly specify coordinates) (Xmax . 4672.4287) (XmaxRatio . 1) (Xmin . -4672.4555) (XminRatio . 1) (Ymax . 4059.8585) (YmaxRatio . 1) (Ymin . -8931.532) (YminRatio . 1) (Zmax . 4220.2485) (ZmaxRatio . 1) (Zmin . -4064.7756) (ZminRatio . 1))
+Create new external boundaries: tunnel.
+[mesh 05:24:55] -> Extract Edge Features
+[mesh 05:24:55] -> Identify Regions (+ fluid-region-1)
+S_MaterialPoints:
+ AddChild: yes
+ MaterialPointsName : fluid-region-1
+ MptMethodType : Numerical Inputs
+ NewRegionType : fluid
+ LinkConstruction : no
+ SelectionType : object
+ ZoneSelectionList : ()
+ ZoneLocation : ()
+ LabelSelectionList : ()
+ ObjectSelectionList : (tunnel)
+ GraphicalSelection : #t
+ ShowCoordinates : #f
+ X : 0
+ Y : 3059.8585
+ Z : 0
+ OffsetX : 0
+ OffsetY : 0
+ OffsetZ : 0
+ Material point fluid-region-1 is created.
+[mesh 05:24:55] -> Update Region Settings
+
+---------------- Regions Updated
+[mesh 05:24:55] -> Choose Mesh Control Options
+(WrapSizeFieldFileName) not found in dict
+(TargetSizeFieldFileName) not found in dict
+[mesh 05:24:56] -> Add Local Sizing (+ aircraft-curvature)
+S_LocalScopedSizing:
+ LocalSettingsName : aircraft-curvature
+ ComputeForSolidOnly : No
+ SelectionType : object
+ ObjectSelectionList : (aircraft_wrapped)
+ LabelSelectionList : ()
+ ZoneSelectionList : ()
+ ZoneLocation : ()
+ EdgeSelectionList : ()
+ LocalSizeControlParameters : (__map__ (AdvancedOptions . #f) (CellsPerGap . 3) (CurvatureNormalAngle . 28) (GrowthRate . 1.2) (IgnoreSelf . #t) (InitialSizeControl . #f) (MaxSize . 26) (MinSize . 5.5) (ScopeProximityTo . faces-and-edges) (SizingType . curvature) (TargetSizeControl . #f) (WrapCellsPerGap . 3) (WrapCurvatureNormalAngle . 28) (WrapGrowthRate . 1.2) (WrapMax . 26) (WrapMin . 5.5))
+ ValueChanged : NotDefault
+[mesh 05:24:57] -> Generate the Surface Mesh
+Writing "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\TaskObject16.msh.h5" ...
+writing 10 node zones
+writing 7 edge zones 
+writing 7 face zones 
+done.Writing "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\/ftm-wf-out-aircraft_wrapped.stl.msh.h5" ...
+writing 10 node zones
+writing 7 edge zones 
+writing 7 face zones 
+done.Scoped sizing written to the file "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\/ftm-wf-out-aircraft_wrapped.stl-target.szcontrol" successfully
+Scoped sizing written to the file "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\/ftm-wf-out-aircraft_wrapped.stl-initial.szcontrol" successfully
+
+
+
+
+Scoped sizing read from the File "ftm-wf-out-aircraft_wrapped.stl-target.szcontrol" Successfully
+
+
+
+
+
+
+
+Reading "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\\ftm-wf-out-aircraft_wrapped.stl-target.sf"...
+
+ Read 108184 vertices
+    initializing octree...
+    refining octree...
+
+
+
+
+
+Reading "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\\ftm-wf-out-aircraft_wrapped.stl-target.sf"...
+
+ Read 108184 vertices
+Found 0 nodes with invalid normals
+Found 0 nodes with invalid normals
+Found 202 faces with invalid dihedral angle
+Found 2 faces with invalid dihedral angle
+Found 0 faces with invalid dihedral angle
+
+
+
+
+
+Gentle Improve for wrapper-surf-fluid-region-1 in 0.018475926 minutes (0.0003079321 hours)
+
+
+
+
+Gentle Improve for wrapper-surf-fluid-region-1 in 0.0069581747 minutes (0.00011596958 hours)
+
+
+
+
+Gentle Improve for wrapper-surf-fluid-region-1 in 0.0065683683 minutes (0.0001094728 hours)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    computing regions...done
+Reading "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\ftm-wf-out-aircraft_wrapped.stl.msh.h5" ...
+3D mesh
+nodes: 176503
+edges: 29368
+faces: 299494 
+cells: 0 
+reading 10 node zones
+reading 7 edge zones
+reading 7 face zones
+appending mesh...
+done.
+
+
+------------------------- --------------------- -------------------- ---------------- ----------
+                     name skewed-cells (> 0.80)    averaged-skewness maximum-skewness face count
+------------------------- --------------------- -------------------- ---------------- ----------
+           fluid-region-1                     0          0.057822301       0.79887207      86172
+
+------------------------- --------------------- -------------------- ---------------- ----------
+                     name skewed-cells (> 0.80)    averaged-skewness maximum-skewness face count
+------------------------- --------------------- -------------------- ---------------- ----------
+          Overall Summary                     0          0.057822301       0.79887207      86172
+
+Surface Mesh:
+==============================================================================
+Wrapping Method ----------------------------------Standard
+Computed SF in -----------------------------------0.07 minutes (0.00 hours).
+Wrapped all material point regions in ------------0.50 minutes (0.01 hours).
+Surface Improved in ------------------------------0.11 minutes (0.00 hours).
+Surface Improved (resolve_int) in ----------------0.02 minutes (0.00 hours).
+Connected all fluid mesh objects in --------------0.05 minutes (0.00 hours).
+Compute Volume-Fill Regions in -------------------0.01 minutes (0.00 hours).
+Other (file I/O, etc.) ---------------------------0.09 minutes (0.00 hours)
+==============================================================================
+Total (surface mesh)                              0.85 minutes (0.01 hours)
+[mesh 05:25:49] -> Update Boundaries
+
+---------------- Boundary Conditions Updated
+[mesh 05:25:49] -> Add Boundary Layers (+ aircraft-bl)
+[mesh 05:25:51] -> Generate the Volume Mesh
+Writing "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\FM_Nimit_6232\TaskObject23.msh.h5" ...
+writing 11 node zones
+writing 7 edge zones 
+writing 14 face zones 
+done.
+
+
+
+
+Warning: growing more than 1 layer of prisms may take a long time.
+
+General Info:
+
+Total faces : 930397
+Total cells : 217488
+
+Participating nodes :     (0 1 2 3)
+Non-participating nodes : ()
+
+Faces Info:
+
+node  0 :   468118 (50.3) faces =>   385930 triangular,    82188 quadrilateral
+node  1 :   154839 (16.6) faces =>    72756 triangular,    82083 quadrilateral
+node  2 :   152670 (16.4) faces =>    71748 triangular,    80922 quadrilateral
+node  3 :   154770 (16.6) faces =>    72720 triangular,    82050 quadrilateral
+
+Cells Info:
+
+node  0 :    54570 (25.1) cells =>    54570 wedge
+node  1 :    54567 (25.1) cells =>    54567 wedge
+node  2 :    53811 (24.7) cells =>    53811 wedge
+node  3 :    54540 (25.1) cells =>    54540 wedge
+done
+
+Generating initial mesh...
+
+Refining mesh...
+
+Create polyhedra ...
+
+Merging zones...
+
+Cleaning up dead entities...
+
+Zone prism-cells-127591-p-127707 is copied to make objects independent
+
+General Info:
+
+Total faces : 2649081
+Total cells : 561669
+
+Participating nodes :     (0 1 2 3)
+Non-participating nodes : ()
+
+Faces Info:
+
+node  0 :   888548 (33.5) faces =>   299494 triangular,   175311 quadrilateral,   413743 polyhedral
+node  1 :   624199 (23.6) faces =>   130395 quadrilateral,   493804 polyhedral
+node  2 :   626375 (23.6) faces =>   135589 quadrilateral,   490786 polyhedral
+node  3 :   509959 (19.3) faces =>   350126 quadrilateral,   159833 polyhedral
+
+Cells Info:
+
+node  0 :   139284 (24.8) cells =>    47873 hexahedral,    91411 polyhedral
+node  1 :   140927 (25.1) cells =>    32601 hexahedral,   108326 polyhedral
+node  2 :   141057 (25.1) cells =>    33802 hexahedral,   107255 polyhedral
+node  3 :   140401 (25.0) cells =>   113462 hexahedral,    26939 polyhedral
+All cells met the target quality.
+
+No cells below quality 0.0001.
+
+Release:        (26 1 0  2026) 
+Build Time:     Feb  2 2026 16:32:00 EST 
+Build ID:       10262
+
+Mesh Info for aircraft_wrapped.stl:
+
+
+Total cell count: 561669
+
+
+Wall-Clock Usage (Estimate) for aircraft_wrapped.stl:
+Surface Mesh:
+==============================================================================
+Wrapping Method ----------------------------------Standard
+Computed SF in -----------------------------------0.07 minutes (0.00 hours).
+Wrapped all material point regions in ------------0.50 minutes (0.01 hours).
+Surface Improved in ------------------------------0.11 minutes (0.00 hours).
+Surface Improved (resolve_int) in ----------------0.02 minutes (0.00 hours).
+Connected all fluid mesh objects in --------------0.05 minutes (0.00 hours).
+Compute Volume-Fill Regions in -------------------0.01 minutes (0.00 hours).
+Other (file I/O, etc.) ---------------------------0.09 minutes (0.00 hours)
+==============================================================================
+Total (surface mesh)                              0.85 minutes (0.01 hours)
+
+Volume Mesh:
+==============================================================================
+Quality Method -----------------------------------Orthogonal
+Continuous Prisms generated and Improved in ------0.11 minutes (0.00 hours).
+Volume-fill in -----------------------------------0.36 minutes (0.01 hours).
+Rezoned and final volume mesh improve in ---------0.02 minutes (0.00 hours).
+Other (file I/O, etc.) ---------------------------0.01 minutes (0.00 hours)
+==============================================================================
+Total (volume mesh)                               0.50 minutes (0.01 hours)
+==============================================================================
+Total                                             1.35 minutes (0.02 hours)
+==============================================================================
+
+
+
+Memory Usage for aircraft_wrapped.stl:
+
+------------------------------------------------------------------------------
+       | Virtual Mem Usage (GB)   | Resident Mem Usage(GB)   |              
+ID     | Current      Peak        | Current      Peak        | Page Faults  
+------------------------------------------------------------------------------
+cortex | 1.19279      1.28308     | 0.928444     1.00909     | 3.473e+05  
+host   | 0.660446     0.683399    | 0.649181     0.671993    | 1.862e+05  
+n0     | 0.630775     0.674129    | 0.621094     0.661869    | 1.072e+06  
+n1     | 0.410088     0.455727    | 0.396431     0.432522    | 3.67e+05   
+n2     | 0.413113     0.464306    | 0.402515     0.448071    | 3.806e+05  
+n3     | 0.388737     0.455204    | 0.37373      0.44136     | 3.708e+05  
+------------------------------------------------------------------------------
+Total  | 3.69595             4.01585           | 2.724e+06  
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+                    | Virtual Mem Usage (GB)    | Resident Mem Usage(GB)    | System Mem (GB)          
+Hostname            | Current      Peak         | Current      Peak         |                          
+------------------------------------------------------------------------------------------------
+Nimit               | 3.69595      4.01585      | 3.37141      3.66491      | 15.6759      
+------------------------------------------------------------------------------------------------
+Total               | 3.69595      4.01585      | 3.37141      3.66491      |           
+------------------------------------------------------------------------------------------------
+
+
+
+
+Quality Report for aircraft_wrapped.stl:
+Report of Cell Orthogonal Quality:
+
+              Region Name   Quality<0.100   Quality<0.040   Min Quality Cell Count
+-------------------------  --------------  -------------- ------------- ----------
+           fluid-region-1               0               0         0.103     561669
+
+              Region Name   Quality<0.100   Quality<0.040   Min Quality Cell Count
+-------------------------  --------------  -------------- ------------- ----------
+          Overall Summary               0               0         0.103     561669
+
+
+Parallel Partitions:
+General Info:
+
+Total faces : 2649081
+Total cells : 561669
+
+Participating nodes :     (0 1 2 3)
+Non-participating nodes : ()
+
+Faces Info:
+
+node  0 :   888548 (33.5) faces =>   299494 triangular,   175311 quadrilateral,   413743 polyhedral
+node  1 :   624199 (23.6) faces =>   130395 quadrilateral,   493804 polyhedral
+node  2 :   626375 (23.6) faces =>   135589 quadrilateral,   490786 polyhedral
+node  3 :   509959 (19.3) faces =>   350126 quadrilateral,   159833 polyhedral
+
+Cells Info:
+
+node  0 :   139284 (24.8) cells =>    47873 hexahedral,    91411 polyhedral
+node  1 :   140927 (25.1) cells =>    32601 hexahedral,   108326 polyhedral
+node  2 :   141057 (25.1) cells =>    33802 hexahedral,   107255 polyhedral
+node  3 :   140401 (25.0) cells =>   113462 hexahedral,    26939 polyhedral
+
+
+Writing "C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\aircraft.msh.h5" ...
+writing 13 node zones
+writing 8 edge zones 
+writing 15 face zones 
+writing 1 cell zones 
+writing boundary layer flags
+done.Copying the required intermediate mesh files into C:\\Users\\nimit\\Desktop\\VTOL_proj1\\cfd_pod\\mesh\\aircraft_workflow_files
+Done.
+    saving data to 'C:\\Users\\nimit\\Desktop\\VTOL_proj1\\cfd_pod\\mesh\\aircraft_workflow_files\\aircraft.fmd' ...
+    done.
+[mesh 05:26:25] wrote C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\mesh\aircraft.msh.h5

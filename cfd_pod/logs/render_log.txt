@@ -1,0 +1,156 @@
+pip_system_certs: ERROR: truststore not available
+[demo 06:23:26] launching Fluent (hidden window, needed for pictures) ...
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v261\fluent\fluent26.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Reading from Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\results\aoa_4.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+      561669 cells,     1 cell zone  ...
+         561669 mixed cells,  zone id: 127644
+     2328683 faces,     8 face zones ...
+        2269259 mixed interior faces,  zone id: 127646
+           1420 polygonal velocity-inlet faces,  zone id: 127575
+           1270 polygonal velocity-inlet faces,  zone id: 127576
+            928 polygonal velocity-inlet faces,  zone id: 127577
+           1265 polygonal velocity-inlet faces,  zone id: 127578
+           1418 polygonal velocity-inlet faces,  zone id: 127579
+            923 polygonal pressure-outlet faces,  zone id: 127580
+          52200 polygonal wall faces,  zone id: 127619
+     1285734 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 7948/7948 = 1
+  Reading boundary layer flags ...
+  Done.
+
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	interior--fluid-region-1
+	tunnel-zmax
+	tunnel-xmin
+	tunnel-ymax
+	tunnel-xmax
+	tunnel-zmin
+	tunnel-ymin
+	aircraft
+	fluid-region-1
+     parallel,
+Done.
+
+Reading from Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\results\aoa_4.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+[demo 06:24:20] surfaces: ['plane-center', 'plane-wing', 'plane-wake-1-full', 'plane-wake-2-full', 'wake-1-x', 'plane-wake-1', 'wake-2-x', 'plane-wake-2', 'rake-wing', 'rake-fuselage', 'rake-tip-r', 'rake-tip-l']
+[demo 06:24:28] graphics: ['cp-aircraft', 'cp-aircraft-ctx', 'vel-center', 'vel-wing-section', 'cp-wing-section', 'vort-wake', 'yplus-aircraft', 'path-wing', 'path-fuselage', 'path-tips', 'aircraft-solid', 'mesh-aircraft', 'mesh-center', 'vec-wing-section']
+[demo 06:24:30] scenes: ['1-geometry-mesh', '2-surface-pressure', '3-streamlines', '4-wing-section', '5-tip-vortices', '6-wake', '7-wall-yplus']
+
+Writing to Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\demo\stallion_demo.cas.h5" in NODE0 mode and compression level 1 ...
+Grouping cells for Laplace smoothing ...
+      561669 cells,     1 zone  ...
+     2328683 faces,     8 zones ...
+     1285734 nodes,     1 zone  ...
+  Done.
+
+  Writing boundary layer flags ...
+  Done.
+Done.
+
+Writing to Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\demo\stallion_demo.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+[demo 06:24:40] wrote C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\demo\stallion_demo.cas.h5
+
+Reading from Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\results\aoa_0.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+[demo 06:24:42] AoA 0: data loaded, rendering
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 28, escaped = 28
+[demo 06:25:22] AoA 0: 14 pictures
+
+Reading from Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\results\aoa_4.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+[demo 06:25:23] AoA 4: data loaded, rendering
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 28, escaped = 28
+[demo 06:26:00] AoA 4: 14 pictures
+
+Reading from Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\results\aoa_8.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+[demo 06:26:02] AoA 8: data loaded, rendering
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+
+number tracked = 28, escaped = 28
+[demo 06:26:39] AoA 8: 14 pictures
+
+Reading from Nimit:"C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\results\aoa_4.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+number tracked = 24, escaped = 24
+
+number tracked = 50, escaped = 50
+[demo 06:28:12] orbit -> C:\Users\nimit\Desktop\VTOL_proj1\cfd_pod\renders\orbit_aoa4.gif

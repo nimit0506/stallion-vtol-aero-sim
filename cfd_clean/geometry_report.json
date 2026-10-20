@@ -1,0 +1,61 @@
+{
+  "input": "C:\\Users\\nimit\\Desktop\\VTOL_proj1\\VTOL model\\stallion_v2_assembled - Copy.stl",
+  "input_facets": 662930,
+  "units_assumed": "mm",
+  "raw": {
+    "open_edges": 0,
+    "non_manifold_edges": 2363
+  },
+  "bodies": 59,
+  "clean": {
+    "open_edges": 0,
+    "non_manifold_edges": 1990
+  },
+  "clean_facets": 662403,
+  "bounds_m": [
+    [
+      -0.6724554896354675,
+      0.6724286675453186
+    ],
+    [
+      -0.9315320253372192,
+      0.05985850840806961
+    ],
+    [
+      3.994256621808745e-05,
+      0.2202484905719757
+    ]
+  ],
+  "size_m": [
+    1.3448841571807861,
+    0.9913905337452888,
+    0.22020854800575762
+  ],
+  "center_m": [
+    -1.341104507446289e-05,
+    -0.4358367584645748,
+    0.1101442165690969
+  ],
+  "median_edge_m": 0.0013484284281730652,
+  "reference": {
+    "planform_area_total_m2": 0.37874,
+    "wing_area_est_m2": 0.22068000000000002,
+    "span_m": 1.3448841571807861,
+    "mean_chord_est_m": 0.1640884821355919,
+    "moment_center_est_m": [
+      0.0,
+      -0.2765517510556128,
+      0.07830574363470078
+    ]
+  },
+  "wrapped": {
+    "open_edges": 0,
+    "non_manifold_edges": 0,
+    "facets": 300000,
+    "bodies": 1,
+    "voxel_mm": 1.5,
+    "max_bbox_change_mm": 0.775754451751709
+  },
+  "output": "C:\\Users\\nimit\\Desktop\\VTOL_proj1\\cfd\\aircraft_wrapped.stl",
+  "output_units": "mm"
+}

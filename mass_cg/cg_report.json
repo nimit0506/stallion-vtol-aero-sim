@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "glb": "C:\\Users\\nimit\\Desktop\\VTOL_proj1\\aero_sim\\geometry\\source\\stallion_v2_equipped_with_pod.glb",
+    "wall_mm": 0.8,
+    "infill": 0.2,
+    "rho": 0.54,
+    "payload_g": 0.0,
+    "report": "C:\\Users\\nimit\\Desktop\\VTOL_proj1\\aero_sim\\mass_cg\\cg_report.json"
+  },
+  "mass_g": {
+    "component": 1032,
+    "carbon": 123,
+    "printed": 1114,
+    "total": 2268
+  },
+  "cg_m": [
+    0.0,
+    -0.2894,
+    0.0658
+  ],
+  "aero": {
+    "reference_point_y_m": -0.27655,
+    "mac_m": 0.16409,
+    "dCm_dCL": -0.1487,
+    "neutral_point_y_m": -0.3009,
+    "static_margin_pct_mac": 7.0,
+    "cm_about_cg": {
+      "0deg": 0.0347,
+      "4deg": 0.0074
+    },
+    "trim_CL_as_built": 0.803
+  },
+  "cruise_CL_needed_20ms": 0.412,
+  "hover": {
+    "motor_y_m": {
+      "front pair": -0.1172,
+      "tail": -0.6539
+    },
+    "tail_motor_share_pct": 32.1,
+    "each_front_motor_pct": 34.0,
+    "right_front_vs_left_pct": 50.0
+  }
+}
